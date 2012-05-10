@@ -26,16 +26,17 @@ let g:colors_name = "railscasts"
 " Light Green  #A5C261
 " Tan          #FFC66D
 
-hi Normal                    guifg=#E6E1DC guibg=#2B2B2B
+hi Normal                    guifg=#E6E1DC guibg=#000000
 hi Cursor                    guibg=#FFFFFF
 hi CursorLine                guibg=#333435
 hi Search                    guibg=#5A647E
 hi Visual                    guibg=#5A647E
-hi LineNr                    guibg=#333435 guifg=#777777 gui=NONE
+hi LineNr                    guibg=#000000 guifg=#777777 gui=NONE
 hi StatusLine                guibg=#414243 gui=NONE
 hi StatusLineNC              guibg=#414243 gui=NONE
 hi VertSplit                 guibg=#414243 gui=NONE
 hi NonText                   guifg=#777777
+hi SpecialKey                guifg=#777777 guibg=NONE
 
 " Folds
 " -----
